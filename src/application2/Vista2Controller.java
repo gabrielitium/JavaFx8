@@ -17,5 +17,15 @@ public class Vista2Controller {
     void previousPane(ActionEvent event) {
         VistaNavigator.loadVista(VistaNavigator.VISTA_1);
     }
+    @FXML
+    void gotoMainPanel()
+    {
+    	ControlPantallas.getInstance().gotoMain();
+    }
+    @FXML
+    void gotoVistaUno()
+    {
+    	ControlPantallas.getInstance().gotoVista1();
+    }
 
 }

@@ -7,8 +7,13 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.StackPane?>
 
-<StackPane fx:id="vista2" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application2.Vista2Controller">
+<StackPane fx:id="vista2" prefHeight="367.0" prefWidth="598.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application2.Vista2Controller">
   <children>
-    <Button mnemonicParsing="false" onAction="#previousPane" text="Previous Pane" />
+    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <children>
+        <Button layoutX="79.0" layoutY="79.0" mnemonicParsing="false" onAction="#gotoMainPanel" text="Main" />
+        <Button layoutX="269.0" layoutY="114.0" mnemonicParsing="false" onAction="#gotoVistaUno" text="Vista 1" />
+      </children>
+    </AnchorPane>
   </children>
 </StackPane>

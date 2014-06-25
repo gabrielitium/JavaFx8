@@ -21,5 +21,15 @@ public class MainController {
     public void setVista(Node node) {
         vistaHolder.getChildren().setAll(node);
     }
-
+    @FXML
+    public void vistaUno()
+    {
+    	ControlPantallas.getInstance().gotoVista1();
+    }
+     
+    @FXML
+    public void vistaDos()
+    {
+    	ControlPantallas.getInstance().gotoVista2();
+    }
 }
